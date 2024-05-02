@@ -1,0 +1,591 @@
+.header {
+    display: flex; 
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.logo {
+    flex: 0 0 auto; 
+    margin-right: 20px;
+}
+.logo img {
+    max-width: 100%;
+    height: auto;
+}
+
+nav {
+    flex: 1;
+    text-align: center;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font: size 21px;
+}
+
+.title{
+    width: 100%; /* 親要素の幅の100%に設定 */
+    max-width: 1200px; /* 最大幅を1200pxに制限 */
+    position: relative; /* 親要素にrelative */
+    margin: 0 auto; /* 水平方向に中央揃え */
+  }
+
+.title img{
+    width: 100%; /* 親要素の幅の100%に設定 */
+    height: auto; /* アスペクト比を保持しながら高さを自動調整 */
+    display: block; /* インライン要素としてのデフォルトのスペースを削除 */
+    margin: 0 auto; /* 水平方向に中央揃え */
+    }
+
+.title-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+}
+
+.title-container h1{
+    font-size: 40px;
+}
+.title-container h2 {
+    margin: 0;
+    padding: 0;
+    margin-top: 30px;
+}
+
+
+.about h3{
+    font-size: 24px;
+    color:#ffd61a;
+    text-align: center;
+    margin-top: 60px;
+}
+.about h4{
+    font-size: 18px;
+    color: #222222;
+    text-align: center;
+    margin-top: 60px;
+}
+.about-container{
+    font-size: 16px;
+    color: #222222;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+
+.about img{
+    width: 100%; /* 親要素の幅の100%に設定 */
+    max-width: 1200px; /* 幅が1200pxを超えないように制限 */
+    height: auto; /* アスペクト比を保持しながら高さを自動調整 */
+    display: block; /* インライン要素としてのデフォルトのスペースを削除 */
+    margin: 0 auto; /* 画像を水平方向に中央揃え */
+    }
+
+.course h3{
+    font-size: 24px;
+    color: #222222;
+    text-align: center;
+    margin-top: 60px;
+}
+.course p{
+    font-size: 16px;
+    color: #222222;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+.course-wrapper-1  {
+    background-color: #fafafa;
+    display: flex; 
+    flex-direction: row; /* 子要素を横並びに配置 */
+    justify-content: center; /* 子要素を中央に配置 */
+    align-items: center; /* 子要素を中央に配置 */
+    width: 100%; /* 幅を100%に設定 */
+    max-width: 1200px; /* 最大幅を1200pxに制限 */
+    margin: 0 auto;
+}
+.course-container-1 {
+    flex: 1; /* 幅を均等に分配 */
+    max-width: 50%; /* 最大幅を50%に制限 */
+}
+
+.course-container-1 img{
+    width: auto; /* 幅を100%に設定 */
+    max-width: 600px; /* 最大幅を100%に設定 */
+    height: auto;
+}
+
+.text-1 {
+    flex: 1; /* 幅を均等に分配 */
+    max-width: 600px; /* 最大幅を50%に制限 */
+    margin-left: 50px; /* 必要に応じて余白を追加 */
+}
+
+.text-1 h4{
+    font-size: 18px;
+    color: #222222;
+}
+
+.text-1 p{
+    font-size: 16px;
+    color: #222222;
+    margin-top: 40px;
+    text-align: left;
+}
+
+.course-wrapper-2  {
+    background-color: #fafafa;
+    display: flex; 
+    flex-direction: row; /* 子要素を横並びに配置 */
+    justify-content: center; /* 子要素を中央に配置 */
+    align-items: center; /* 子要素を中央に配置 */
+    width: 100%; /* 幅を100%に設定 */
+    max-width: 1200px; /* 最大幅を1200pxに制限 */
+    margin: 0 auto;
+}
+.course-container-2 {
+    flex: 1; /* 幅を均等に分配 */
+    max-width: 50%; /* 最大幅を50%に制限 */
+}
+
+.course-container-2 img{
+    width: auto; /* 幅を100%に設定 */
+    max-width: 600px; /* 最大幅を100%に設定 */
+    height: auto;
+}
+
+.text-2 {
+    flex: 1; /* 幅を均等に分配 */
+    max-width: 600px; /* 最大幅を50%に制限 */
+    padding-left: 120px; /* 必要に応じて余白を追加 */
+}
+
+.text-2 h4{
+    font-size: 18px;
+    color: #222222;
+}
+
+.text-2 p{
+    font-size: 16px;
+    color: #222222;
+    margin-top: 40px;
+    text-align: left;
+}
+
+.course-wrapper-3  {
+    background-color: #fafafa;
+    display: flex; 
+    flex-direction: row; /* 子要素を横並びに配置 */
+    justify-content: center; /* 子要素を中央に配置 */
+    align-items: center; /* 子要素を中央に配置 */
+    width: 100%; /* 幅を100%に設定 */
+    max-width: 1200px; /* 最大幅を1200pxに制限 */
+    margin: 0 auto;
+}
+.course-container-3 {
+    flex: 1; /* 幅を均等に分配 */
+    max-width: 50%; /* 最大幅を50%に制限 */
+}
+
+.course-container-3 img{
+    width: 100%; /* 幅を100%に設定 */
+    max-width: 100%; /* 最大幅を100%に設定 */
+}
+
+.text-3 {
+    flex: 1; /* 幅を均等に分配 */
+    max-width: 50%; /* 最大幅を50%に制限 */
+}
+
+.text-3 h4{
+    font-size: 18px;
+    color: #222222;
+    margin-left: 50px; /* 必要に応じて余白を追加 */
+}
+
+.text-3 p{
+    font-size: 16px;
+    color: #222222;
+    margin-top: 40px;
+    margin-left: 50px; /* 必要に応じて余白を追加 */
+    text-align: left;
+}
+
+.news{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.news h3{
+    font-size: 24px;
+    line-height: 30px; /* 行間を30pxに設定 */
+    color:#ffd61a;
+    text-align: center;
+}
+.news h4{
+    font-size: 18px;
+    color: #222222;
+    text-align: center;
+}
+
+.news-wrapper-4 {
+    display: flex;
+    justify-content: center; /* アイテムを中央に配置 */
+}
+
+.container-1,
+.container-2,
+.container-3 {
+    flex: 0 0 auto; /* アイテムの伸縮を無効にする */
+    width: 300px; /* 幅を300pxに設定 */
+    margin-right: 30px; /* 右側のマージンを設定 */
+}
+
+.container-1 img,
+.container-2 img,
+.container-3 img {
+    width: 100%; /* 幅を100%に設定 */
+    height: auto; /* 高さを自動調整 */
+}
+
+.nesw-text-1{
+    width: 100%;
+    height: auto;
+    padding-top: 30px; /* 上側の余白を設定 */
+    font-size: 16px; /* テキストのフォントサイズを設定 */
+    text-align: left; /* テキストを左寄せにする */
+}
+
+.nesw-text-2{
+    width: 100%;
+    height: auto;
+    padding-top: 30px; /* 上側の余白を設定 */
+    font-size: 16px; /* テキストのフォントサイズを設定 */
+    text-align: left; /* テキストを左寄せにする */
+}
+
+.news-text-3{
+    width: 100%;
+    height: auto;
+    font-size: 16px; /* テキストのフォントサイズを設定 */
+    text-align: left; /* テキストを左寄せにする */
+}
+
+
+.more-container{
+    width: 100%; /* 画面の幅いっぱいにコンテナを広げる */
+    margin-top: 60px;
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: center; /* 水平方向に中央揃え */
+    align-items: center; /* 垂直方向に中央揃え */
+}
+
+.more {
+    width: 300px;
+    height: 60px;
+    background-color: #ffd61a; /* 背景色を設定 */
+    cursor: pointer; /* マウスが重なった時にカーソルをポインターに変更 */
+    display: flex; /* テキストを中央に配置するために flexbox を使用 */
+    justify-content: center; /* 水平方向に中央揃え */
+    align-items: center; /* 垂直方向に中央揃え */
+}
+
+.more:hover {
+    background-color: #ffab00; /* ホバー時の背景色を変更 */
+}
+
+.more p {
+    margin: 0; /* マージンをリセット */
+    color: white; /* テキスト色を設定 */
+    font-size: 18px; /* フォントサイズを設定 */
+    font-weight: bold; /* フォントの太さを設定 */
+    text-align: center; /* テキストを中央に配置 */
+}
+
+.access-container{
+    background-color: #fafafa; /* 背景色を設定 */
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.access h3{
+    font-size: 24px;
+    color:#ffd61a;
+    text-align: center;
+}
+.access h4{
+    font-size: 16px;
+    color: #222222;
+    text-align: center;
+}
+
+.map-container iframe {
+    width: 1800px;
+    max-width: 100%;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.access-text {
+    display: flex;
+    justify-content: center; /* 横方向の中央揃え */
+  }
+
+.access-category-1 p{
+    width: auto;
+    height: 50px;
+    font-size: 16px;
+    text-align: left;
+    line-height: 30px;
+    padding-right: 50px;
+}
+
+.access-category-2 p{
+    width: auto;
+    height: 50px;
+    font-size: 16px;
+    text-align: left;
+    line-height: 30px;
+}
+
+.contact h3{
+    font-size: 24px;
+    color: #222222;;
+    text-align: center;
+    margin-top: 60px;
+}
+.contact h4{
+    font-size: 18px;
+    color: #222222;
+    text-align: center;
+    margin-top: 30px;
+}
+.contact-container{
+    font-size: 16px;
+    color: #222222;
+    text-align: center;
+    margin-top: 60px;
+    margin-inline: 30px;
+    margin-bottom: 70px;
+}
+
+.contact-container-1{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center; /* 横方向の中央揃え */
+    align-items: center; /* 縦方向の中央揃え */
+  }
+  
+  .name {
+    display: flex;
+    flex-direction: column;
+    width: 640px;
+    border-top:1px solid #222222;
+    border-bottom:1px solid #222222;
+  }
+  
+  .kanji-form, .katakana-form {
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
+  
+  .kanji-label, .katakana-label {
+    width: 240px;
+    padding: 16px;
+  }
+  
+  .kanji-textarea, .katakana-textarea {
+    width: 328px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .contact-container-2 {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center; /* 横方向の中央揃え */
+    align-items: center; /* 縦方向の中央揃え */
+  }
+  
+  .email {
+    display: flex;
+    flex-direction: column;
+    width: 640px;
+    border-bottom: 1px solid #222222;
+  }
+  
+  .email-form {
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
+  
+  .email-label {
+    width: 240px;
+    padding: 16px;
+  }
+  
+  .email-textarea {
+    width: 328px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .contact-container-3 {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center; /* 横方向の中央揃え */
+    align-items: center; /* 縦方向の中央揃え */
+  }
+  
+  .question {
+    display: flex;
+    flex-direction: column;
+    width: 640px;
+  }
+  
+  .question-form {
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
+  
+  .question-label {
+    width: 240px;
+    padding: 16px;
+  }
+  
+  .question-select {
+    width: 328px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .contact-container-4 {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center; /* 横方向の中央揃え */
+    align-items: center; /* 縦方向の中央揃え */
+  }
+  
+  .choice {
+    display: flex;
+    flex-direction: column;
+    width: 640px;
+    border-bottom: 1px solid #222222;
+  }
+  
+  .choice-form {
+    display: flex;
+    flex-direction: column; /* アイテムを縦方向に配置 */
+    align-items: flex-start; /* アイテムを左揃え */
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.choice-label {
+    width: 240px;
+    padding: 16px;
+}
+
+.input-wrapper {
+    width: 100%; /* input-wrapperを横幅いっぱいに広げる */
+    display: flex;
+    align-items: center; /* アイテムを左寄せ */
+    justify-content: center; /* アイテムを中央揃え */
+    margin-left: 24px; /* 左側のマージン */
+}
+
+  .contact-container-5 {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center; /* 横方向の中央揃え */
+    align-items: center; /* 縦方向の中央揃え */
+  }
+  
+  .details {
+    display: flex;
+    flex-direction: column;
+    width: 640px;
+    border-bottom: 1px solid #222222;
+  }
+  
+  .details-form {
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
+  
+  .details-label {
+    width: 240px;
+    padding: 16px;
+  }
+  
+  .details-textarea {
+    width: 328px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .send-container{
+    width: 100%; /* 画面の幅いっぱいにコンテナを広げる */
+    margin-top: 30px;
+    display: flex;
+    justify-content: center; /* 水平方向に中央揃え */
+    align-items: center; /* 垂直方向に中央揃え */
+}
+
+.send {
+    width: 300px;
+    height: 60px;
+    background-color: #ffd61a; /* 背景色を設定 */
+    cursor: pointer; /* マウスが重なった時にカーソルをポインターに変更 */
+    display: flex; /* テキストを中央に配置するために flexbox を使用 */
+    justify-content: center; /* 水平方向に中央揃え */
+    align-items: center; /* 垂直方向に中央揃え */
+}
+
+.send:hover {
+    background-color: #ffab00; /* ホバー時の背景色を変更 */
+}
+
+.send p {
+    margin: 0; /* マージンをリセット */
+    color: white; /* テキスト色を設定 */
+    font-size: 18px; /* フォントサイズを設定 */
+    font-weight: bold; /* フォントの太さを設定 */
+    text-align: center; /* テキストを中央に配置 */
+}
+
+.footer{
+    width: 100%;
+    padding: 30px;
+    background-color: #707070;
+    text-align: center;
+    color: #fafafa;
+    margin-top: 140px;
+    box-sizing: border-box; /* padding を含めた全体のサイズを指定 */
+}
